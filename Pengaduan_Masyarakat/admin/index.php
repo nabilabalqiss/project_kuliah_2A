@@ -1,5 +1,5 @@
 <?php
-    require_once("database.php"); // koneksi DB
+    require_once("Connet.php"); // koneksi DB
     require_once("auth.php"); // Session
     logged_admin ();
     global $total_laporan_masuk, $total_laporan_menunggu, $total_laporan_ditanggapi;

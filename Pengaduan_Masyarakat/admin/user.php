@@ -1,5 +1,5 @@
 <?php
-require_once("database.php");
+require_once("Connet.php");
 require_once("auth.php"); // Session
 logged_admin ();
 ?>

@@ -1,5 +1,5 @@
 <?php
-require_once("private/database.php");
+require_once("private/Connet.php");
 $nomorError = "";
 global $found, $foundreply;
 // jalankan jika tombol cari ditekan

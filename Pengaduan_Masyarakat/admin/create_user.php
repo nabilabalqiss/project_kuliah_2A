@@ -1,5 +1,5 @@
 <?php
-require_once("database.php");
+require_once("Connet.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["username"]) && isset($_POST["password"]) && isset($_POST["divisi"])) {
     $username = $_POST["username"];

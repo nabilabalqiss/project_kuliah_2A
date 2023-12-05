@@ -1,5 +1,5 @@
 <?php
-    require_once("private/database.php");
+    require_once("private/Connet.php");
 ?>
 <?php
 // fungsi untuk merandom avatar profil

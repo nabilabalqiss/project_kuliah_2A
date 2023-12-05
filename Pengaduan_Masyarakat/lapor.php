@@ -1,5 +1,5 @@
 <?php
-    require_once("private/database.php");
+    require_once("private/Connet.php");
     $statement = $db->query("SELECT id FROM `laporan` ORDER BY id DESC LIMIT 1");
     // $cekk = $statement->fetch(PDO::FETCH_ASSOC);
     if ($statement->rowCount()>0) {
